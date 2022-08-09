@@ -86,12 +86,12 @@ const Container = styled.div`
     z-index: 2;
     padding: 0 4rem;
     align-items: center;
-    transition: 0.3s ease-in-out;
+    transition: 0.5s ease-in-out;
     .left {
       gap: 2rem;
       .brand {
         img {
-          height: 4rem;
+          height: 7rem;
         }
       }
       .links {

@@ -74,8 +74,8 @@ gap: 1rem;
       height: 100%;
       top: 0;
       bottom: 0;
-      width: 50px;
-      transition: 0.3s ease-in-out;
+      width: 70px;
+      transition: 0.5s ease-in-out;
       svg {
         font-size: 2rem;
       }

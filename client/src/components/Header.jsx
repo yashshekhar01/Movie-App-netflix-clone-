@@ -30,8 +30,8 @@ button {
     border: none;
     cursor: pointer;
     color: white;
-    border-radius: 0.2rem;
+    border-radius: 0.7rem;
     font-weight: bolder;
-    font-size: 1.05rem;
+    font-size: 1.5rem;
 }
 `;

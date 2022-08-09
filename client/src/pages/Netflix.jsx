@@ -90,16 +90,16 @@ const Container = styled.div`
         gap: 2rem;
         button {
           font-size: 1.4rem;
-          gap: 1rem;
+          gap: 2.5rem;
           border-radius: 0.2rem;
           padding: 0.5rem;
-          padding-left: 2rem;
+          padding-left: 5rem;
           padding-right: 2.4rem;
           border: none;
           cursor: pointer;
           transition: 0.2s ease-in-out;
           &:hover {
-            opacity: 0.8;
+            opacity: 0.6;
           }
           &:nth-of-type(2) {
             background-color: rgba(109, 109, 110, 0.7);

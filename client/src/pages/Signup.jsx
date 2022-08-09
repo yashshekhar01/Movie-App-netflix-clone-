@@ -82,7 +82,7 @@ position: relative;
         .form {
             display: grid;
             grid-template-columns:${({showPassword})=>showPassword ?"1fr 1fr": "2fr 1fr"};
-            width: 60%;
+            width: 47%;
             input {
                 color: black;
                 border: none;
@@ -100,7 +100,7 @@ position: relative;
     cursor: pointer;
     color: white;
     font-weight: bolder;
-    font-size: 1.05rem;
+    font-size: 1.25rem;
             }
         }
         button {
@@ -109,7 +109,7 @@ position: relative;
             border: none;
             cursor: pointer;
             color: white;
-            border-radius: 0.2rem;
+            border-radius: 0.4rem;
             font-weight: bolder;
             font-size: 1.05rem;
         }

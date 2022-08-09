@@ -69,14 +69,14 @@ position: relative;
     height: 100vh;
     width: 100vw;
     display: grid;
-    grid-template-rows: 15vh 85vh;
+    grid-template-rows: 19vh 85vh;
     .form-container {
         gap: 2rem;
         height: 85vh;
         .form {
             padding: 2rem;
             background-color: #000000b0;
-            width: 25vw;
+            width: 37vw;
             gap: 2rem;
             color: white;
             .container {

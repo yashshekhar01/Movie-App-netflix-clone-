@@ -95,12 +95,12 @@ export default React.memo(function Card({ movieData, isLiked = false }) {
 
 const Container = styled.div`
   max-width: 230px;
-  width: 230px;
+  width: 255px;
   height: 100%;
   cursor: pointer;
   position: relative;
   img {
-    border-radius: 0.2rem;
+    border-radius: 0.6rem;
     width: 100%;
     height: 100%;
     z-index: 10;
@@ -118,7 +118,7 @@ const Container = styled.div`
     transition: 0.3s ease-in-out;
     .image-video-container {
       position: relative;
-      height: 140px;
+      height: 160px;
       img {
         width: 100%;
         height: 140px;
@@ -130,7 +130,7 @@ const Container = styled.div`
       }
       video {
         width: 100%;
-        height: 140px;
+        height: 160px;
         object-fit: cover;
         border-radius: 0.3rem;
         top: 0;
@@ -140,7 +140,7 @@ const Container = styled.div`
     }
     .info-container {
       padding: 1rem;
-      gap: 0.5rem;
+      gap: 0.7rem;
     }
     .icons {
       .controls {
@@ -148,7 +148,7 @@ const Container = styled.div`
         gap: 1rem;
       }
       svg {
-        font-size: 2rem;
+        font-size: 6rem;
         cursor: pointer;
         transition: 0.3s ease-in-out;
         &:hover {
